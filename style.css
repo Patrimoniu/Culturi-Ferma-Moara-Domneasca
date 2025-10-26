@@ -1,0 +1,81 @@
+/* totul e nou */ 
+#mapTitle {
+    position: absolute;
+    top: 10px;
+    left: 20%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.8);
+	color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Verdana, sans-serif;
+    box-shadow: 0 0 4px rgba(0,0,0,0.2);
+    z-index: 1000;
+	pointer-events: none; /* prevents interfering with map clicks */
+}
+#mapSubtitle {
+    font-size: 15px;
+    font-weight: normal;
+	text-align: center;
+    margin-top: 4px;
+    font-family: Verdana, sans-serif;
+    color: white;;
+	pointer-events: none; /* prevents interfering with map clicks */
+}
+#activeLayerLabel {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+	transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 14px;
+	font-weight: bold;
+    font-family: Verdana, sans-serif;
+    z-index: 1000;
+    pointer-events: none; /* prevents interfering with map clicks */
+    display: none; /* hidden by default */
+}
+#logoContainer1 {
+    position: absolute;
+    bottom: 17px;
+    right: 5px;
+    display: flex;
+    align-items: center;
+    gap: 0px; /* space between images */
+    z-index: 1001;
+}
+
+#logoContainer2 {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    gap: 0px; /* space between images */
+    z-index: 1001;
+}
+
+
+
+#logoContainer1 img {
+    height: clamp(25px, 6vw, 80px); /* min 25px, typical 4% of viewport width, max 45px */
+    width: auto;
+    border-radius: 0px; /* optional, gives soft corners */
+	/* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);*/
+    /*background: white;  optional: white background under logo */
+    padding: 0xp;
+}
+
+#logoContainer2 img {
+    height: clamp(25px, 6vw, 80px); /* min 25px, typical 4% of viewport width, max 45px */
+    width: auto;
+    border-radius: 0px; /* optional, gives soft corners */
+    /*box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);*/
+    /*background: white;  optional: white background under logo */
+    padding: 0px;
+}
