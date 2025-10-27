@@ -11,6 +11,7 @@
     font-size: clamp(8px, 3vw, 15px); /* shrink on small screens */
     font-weight: bold;
     font-family: Verdana, sans-serif;
+	text-align: center;
     box-shadow: 0 0 4px rgba(0,0,0,0.2);
     z-index: 1000;
 	pointer-events: none; /* prevents interfering with map clicks */
@@ -79,4 +80,5 @@
     /*box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);*/
     /*background: white;  optional: white background under logo */
     padding: 0px;
+
 }
