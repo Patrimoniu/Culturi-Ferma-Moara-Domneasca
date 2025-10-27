@@ -64,7 +64,7 @@
 
 
 #logoContainer1 img {
-    height: clamp(25px, 6vw, 80px); /* min 25px, typical 4% of viewport width, max 45px */
+    height: clamp(25px, 6vw, 100px); /* min 25px, typical 4% of viewport width, max 45px */
     width: auto;
     border-radius: 0px; /* optional, gives soft corners */
 	/* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);*/
@@ -73,7 +73,7 @@
 }
 
 #logoContainer2 img {
-    height: clamp(25px, 6vw, 80px); /* min 25px, typical 4% of viewport width, max 45px */
+    height: clamp(25px, 6vw, 100px); /* min 25px, typical 4% of viewport width, max 45px */
     width: auto;
     border-radius: 0px; /* optional, gives soft corners */
     /*box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);*/
@@ -81,3 +81,4 @@
     padding: 0px;
 
 }
+
