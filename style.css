@@ -1,19 +1,20 @@
 /* totul e nou */ 
 #mapTitle {
     position: absolute;
-    top: 10px;
-    left: 20%;
+    top: 2vh;
+    left: 3vw;
     transform: translateX(-50%);
     background: rgba(0, 0, 0, 0.8);
 	color: white;
-    padding: 8px 16px;
+    padding: 0.6em 1em;
     border-radius: 8px;
-    font-size: 20px;
+    font-size: clamp(18px, 3vw, 28px); /* shrink on small screens */
     font-weight: bold;
     font-family: Verdana, sans-serif;
     box-shadow: 0 0 4px rgba(0,0,0,0.2);
     z-index: 1000;
 	pointer-events: none; /* prevents interfering with map clicks */
+	max-width: 90vw; /* prevents overflow */
 }
 #mapSubtitle {
     font-size: 15px;
@@ -78,4 +79,5 @@
     /*box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);*/
     /*background: white;  optional: white background under logo */
     padding: 0px;
+
 }
